@@ -57,3 +57,5 @@ spec:
       - name: udev
         hostPath:
           path: /run/udev
+      securityContext:
+        privileged: true    
