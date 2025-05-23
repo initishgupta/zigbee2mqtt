@@ -56,6 +56,4 @@ spec:
           type: Directory
       - name: udev
         hostPath:
-          path: /run/udev
-      securityContext:
-        privileged: true    
+          path: /run/udev    
