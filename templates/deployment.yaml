@@ -27,7 +27,7 @@ spec:
         - name: "ZIGBEE2MQTT_CONFIG_PERMIT_JOIN"
           value: "true"
         - name: "ZIGBEE2MQTT_CONFIG_SERIAL_PORT"
-          value: "/dev/serial/by-id/usb-ITead_Sonoff_Zigbee_3.0_USB_Dongle_Plus_d28fac83e36bef1181df99adc169b110-if00-port0"
+          value: "/dev/ttyUSB0"
         - name: "ZIGBEE2MQTT_CONFIG_ADVANCED_NETWORK_KEY"
           value: "GENERATE"
         - name: "ZIGBEE2MQTT_CONFIG_FRONTEND_ENABLED"
