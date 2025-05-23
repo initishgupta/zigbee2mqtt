@@ -1,0 +1,8 @@
+config:
+  homeassistant:
+    enabled: true
+
+  permit_join: false
+  mqtt:
+    base_topic: zigbee2mqtt
+    server: mqtt://mqtt-mosquitto.home.svc.cluster.local
