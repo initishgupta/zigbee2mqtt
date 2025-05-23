@@ -40,8 +40,8 @@ spec:
         volumeMounts:
         - name: data
           mountPath: /data
-        - name: zigbee-stick
-          mountPath: /dev/ttyUSB0
+        - name: host-dev
+          mountPath: /dev
         - name: udev
           mountPath: /run/udev
         securityContext:
@@ -50,10 +50,10 @@ spec:
       - name: data
         persistentVolumeClaim:
           claimName: zigbee2mqtt-data
-      - name: zigbee-stick
+      - name: host-dev
         hostPath:
-          path: /dev/ttyUSB0
-          type: CharDevice
+          path: /dev
+          type: Directory
       - name: udev
         hostPath:
           path: /run/udev    
