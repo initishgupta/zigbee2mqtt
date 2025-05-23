@@ -30,7 +30,7 @@ spec:
           value: "/dev/ttyUSB0"
         - name: "ZIGBEE2MQTT_CONFIG_ADVANCED_NETWORK_KEY"
           value: "GENERATE"
-        - name: "ZIGBEE2MQTT_CONFIG_HOMEASSISTANT"
+        - name: "ZIGBEE2MQTT_CONFIG_HOMEASSISTANT_ENABLED"
           value: "true"
         - name: "TZ"
           value: "UTC"
